@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  width: 100%;
+  background-color: beige;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+ul {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.one {
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  background-color: red;
+}
+.two {
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+}
+
+.three {
+  width: 100%;
+  height: 100vh;
+  background-color: orange;
+}
+
+.four {
+  width: 100%;
+  height: 100vh;
+  background-color: teal;
+}
+
+.one {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
